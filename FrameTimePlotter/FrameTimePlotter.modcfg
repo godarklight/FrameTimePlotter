@@ -1,0 +1,15 @@
+ModCFG
+{
+    title = FrameTimePlotter
+    author = godarklight
+    modVersion = 0.1.0
+    imgPath = Addons\FrameTimePlotter\preview.jpg
+    requiresGameVersion = 0.101.2
+    Plugin
+    {
+        name = FrameTimePlotter
+        description = Measures frame times
+        asmpath = Addons\FrameTimePlotter\FrameTimePlotter.dll
+        order = 100
+    }
+} 
